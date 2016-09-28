@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00008B"
+    tools:context="com.rishabh2631.me.Experience">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Experience"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFD"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="back to home"
+        android:background="#8B1C62"
+        android:id="@+id/button11"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:text="1.Internship at Simplymovein."
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="2.Worked on the project called GREENFOOT."
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:text="3.Web development project an web marketing at Ablaze Info Pvt. Ltd."
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+</RelativeLayout>
